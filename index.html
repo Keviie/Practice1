@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header>
+        <nav class="bg-white shadow">
+            <div class="max-w-7xl mx-auto px-4 py-4">
+                <div class="flex justify-between items-center">
+                    <div class="text-2xl font-bold">MyWebsite</div>
+                    <ul class="flex space-x-4">
+                        <li><a href="#home" class="text-gray-700 hover:text-blue-500">Home</a></li>
+                        <li><a href="#about" class="text-gray-700 hover:text-blue-500">About</a></li>
+                        <li><a href="#services" class="text-gray-700 hover:text-blue-500">Services</a></li>
+                        <li><a href="#contact" class="text-gray-700 hover:text-blue-500">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-10">
+        <section id="home">
+            <h1 class="text-3xl font-bold">Welcome to My Website</h1>
+            <p class="mt-4">This is the home section.</p>
+        </section>
+        <section id="about" class="mt-10">
+            <h2 class="text-2xl font-semibold">About Us</h2>
+            <p class="mt-2">This is the about section.</p>
+        </section>
+        <section id="services" class="mt-10">
+            <h2 class="text-2xl font-semibold">Our Services</h2>
+            <p class="mt-2">This is the services section.</p>
+        </section>
+        <section id="contact" class="mt-10">
+            <h2 class="text-2xl font-semibold">Contact Us</h2>
+            <p class="mt-2">This is the contact section.</p>
+        </section>
+    </main>
+
+    <footer class="bg-white shadow mt-10">
+        <div class="max-w-7xl mx-auto px-4 py-4 text-center">
+            <p>&copy; 2024 My Website</p>
+        </div>
+    </footer>
+</body>
+</html>
